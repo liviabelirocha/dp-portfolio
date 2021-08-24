@@ -7,7 +7,7 @@ export default createGlobalStyle`
 		box-sizing: border-box
 	}
 	body {
-        background: #000;
+        background: ${(props) => props.theme.colors.backgroundSecondary};
 		color: ${(props) => props.theme.colors.text};
         font: 400 18px 'Poppins', sans-serif;
 	}

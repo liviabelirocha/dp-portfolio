@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Intro from "../components/sections/Intro";
+
 export default function Home() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Home() {
         <title>Dominic Portfolio</title>
       </Head>
       <main>
-        <h1>Hello World</h1>
+        <Intro />
       </main>
     </>
   );
