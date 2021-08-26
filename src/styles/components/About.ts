@@ -11,23 +11,15 @@ export const Container = styled.div`
   img {
     width: 680px;
     height: 680px;
-    margin-left: 64px;
   }
 `;
 
 export const Texts = styled.div`
+  margin-left: 50px;
   margin-top: 80px;
 
-  .hello {
-    font-size: 18px;
-    margin-bottom: -10px;
-  }
-
-  .from {
-    font-size: 24px;
-  }
-
-  .below {
-    margin-top: 60px;
+  .about {
+    margin-top: 50px;
+    max-width: 450px;
   }
 `;

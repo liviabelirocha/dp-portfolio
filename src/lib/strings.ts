@@ -10,7 +10,8 @@ export const langStrings = {
     freela: "Freelance UI Designer",
     from: "From Fortaleza - Brazil",
 
-    aboutTitle: "ABOUT ME",
+    aboutTitle1: "ABOUT",
+    aboutTitle2: "ME",
     about:
       "I specialize in UI Design and what i like most is building elegant and professional user interfaces and websites. I also do graphic design such as social medias campaigns, banners and presentations, along with photo editing and manipulation, motion graphics and other services.",
 
@@ -44,7 +45,8 @@ export const langStrings = {
     freela: "UI Designer Freelance",
     from: "De Fortaleza - Brasil",
 
-    aboutTitle: "SOBRE MIM",
+    aboutTitle1: "SOBRE",
+    aboutTitle2: "MIM",
     about:
       "Me especializo em UI Design e o que mais gosto é construir interfaces de usuário e sites elegantes e profissionais. Também faço design gráfico, como campanhas em redes sociais, banners e apresentações, também edição e manipulação de imagens, motion graphics e outros serviços.",
 
