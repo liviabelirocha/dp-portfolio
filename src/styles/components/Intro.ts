@@ -4,7 +4,6 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: center;
   margin-top: 180px;
 
@@ -16,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Texts = styled.div`
-  margin-top: 80px;
+  margin-top: 87px;
 
   .hello {
     font-size: 18px;
