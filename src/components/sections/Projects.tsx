@@ -9,17 +9,16 @@ import Title from "../Title";
 
 import useTranslation from "../../hooks/useTranslation";
 
-import { BsArrowRight } from "react-icons/bs";
 import ArrowSvg from "../../assets/Arrow.svg";
 
-export default function Intro() {
+export default function Projects() {
   const { t } = useTranslation();
 
   return (
     <Container>
       <Title
-        main={t("projectsTitle")}
-        sub=""
+        main={t("projectsTitle1")}
+        sub={t("projectsTitle2")}
         defaultStyle={false}
         className="title"
       />

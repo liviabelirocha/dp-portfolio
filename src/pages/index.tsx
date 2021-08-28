@@ -3,6 +3,7 @@ import Head from "next/head";
 import Intro from "../components/sections/Intro";
 import About from "../components/sections/About";
 import Projects from "../components/sections/Projects";
+import Tools from "../components/sections/Tools";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Intro />
         <About />
         <Projects />
+        <Tools />
       </main>
     </>
   );

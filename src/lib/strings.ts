@@ -15,10 +15,12 @@ export const langStrings = {
     about:
       "I specialize in UI Design and what i like most is building elegant and professional user interfaces and websites. I also do graphic design such as social medias campaigns, banners and presentations, along with photo editing and manipulation, motion graphics and other services.",
 
-    projectsTitle: "PROJECTS",
+    projectsTitle1: "PERSONAL",
+    projectsTitle2: "PROJECTS",
     seeMore: "See more works",
 
-    toolsTitle: "TOOLS I USE",
+    toolsTitle1: "TOOLS I",
+    toolsTitle2: "USE",
 
     workTitle: "HOW I WORK",
     workText:
@@ -50,10 +52,12 @@ export const langStrings = {
     about:
       "Me especializo em UI Design e o que mais gosto é construir interfaces de usuário e sites elegantes e profissionais. Também faço design gráfico, como campanhas em redes sociais, banners e apresentações, também edição e manipulação de imagens, motion graphics e outros serviços.",
 
-    projectsTitle: "PROJETOS",
+    projectsTitle1: "PROJETOS",
+    projectsTitle2: "PESSOAIS",
     seeMore: "Veja mais trabalhos",
 
-    toolsTitle: "FERRAMENTAS QUE USO",
+    toolsTitle1: "FERRAMENTAS",
+    toolsTitle2: "QUE USO",
 
     workTitle: "COMO TRABALHO",
     workText:

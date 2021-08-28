@@ -3,7 +3,7 @@ const theme = {
     text: "#FBFBFB",
     backgroundPrimary: "#EE1848",
     backgroundSecondary: "#140651",
-    backgroundTertiary: "#40054A",
+    backgroundTertiary: "#40056A",
   },
 };
 

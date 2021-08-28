@@ -4,7 +4,7 @@ import Title from "../Title";
 
 import useTranslation from "../../hooks/useTranslation";
 
-export default function Intro() {
+export default function About() {
   const { t } = useTranslation();
 
   return (
