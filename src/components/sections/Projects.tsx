@@ -3,6 +3,7 @@ import {
   ImagesGrid,
   ImageColumn,
   TextButton,
+  Content,
 } from "../../styles/components/Projects";
 
 import Title from "../Title";
@@ -22,22 +23,24 @@ export default function Projects() {
         defaultStyle={false}
         className="title"
       />
-      <ImagesGrid>
-        <img src="mu.jpg" />
-        <ImageColumn>
+      <Content>
+        <ImagesGrid>
           <img src="mu.jpg" />
-          <img src="mu.jpg" />
-        </ImageColumn>
-      </ImagesGrid>
+          <ImageColumn>
+            <img src="mu.jpg" />
+            <img src="mu.jpg" />
+          </ImageColumn>
+        </ImagesGrid>
 
-      <TextButton
-        href="https://www.behance.net/dominicpersaud"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p>{t("seeMore")}</p>
-        <ArrowSvg />
-      </TextButton>
+        <TextButton
+          href="https://www.behance.net/dominicpersaud"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>{t("seeMore")}</p>
+          <ArrowSvg />
+        </TextButton>
+      </Content>
     </Container>
   );
 }

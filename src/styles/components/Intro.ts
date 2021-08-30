@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import { applyPadding } from "../global";
 
-export const Container = styled.div`
+export const Container = styled(applyPadding)`
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 180px;
 
   img {

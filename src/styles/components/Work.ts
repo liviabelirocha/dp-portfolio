@@ -1,11 +1,11 @@
 import styled from "styled-components";
+import { applyPadding } from "../global";
 
-export const Container = styled.div`
+export const Container = styled(applyPadding)`
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 180px;
-  margin-left: 100px;
 
   .title {
     margin-bottom: 50px;

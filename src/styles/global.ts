@@ -1,14 +1,23 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 	* {
 		margin: 0;
 		padding: 0;
-		box-sizing: border-box
+		box-sizing: border-box;
 	}
+
 	body {
         background: ${(props) => props.theme.colors.backgroundSecondary};
 		color: ${(props) => props.theme.colors.text};
         font: 400 18px 'Poppins', sans-serif;
 	}
+`;
+
+export const applyPadding = styled.div`
+  padding: 0 100px;
+
+  @media (min-width: 1920px) {
+    padding: 0 400px;
+  }
 `;

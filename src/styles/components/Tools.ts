@@ -1,15 +1,16 @@
 import styled from "styled-components";
+import { applyPadding } from "../global";
 
-export const Container = styled.div`
+export const Container = styled(applyPadding)`
   width: 100%;
   background: ${(props) => props.theme.colors.backgroundTertiary};
   border-radius: 0 0 230px 230px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   height: 850px;
-  padding-top: 105px;
+  padding-top: 105px !important;
 
   img {
     width: 680px;

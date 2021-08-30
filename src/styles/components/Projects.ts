@@ -1,32 +1,34 @@
 import styled from "styled-components";
+import { applyPadding } from "../global";
 
-export const Container = styled.div`
-  width: 100%;
+export const Container = styled(applyPadding)`
   background: ${(props) => props.theme.colors.backgroundTertiary};
   border-radius: 230px 230px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-center;
   margin-top: -100px;
-  padding-top: 200px;
+  padding-top: 200px !important;
 
   img {
     width: 525px;
     height: 500px;
     border: 2px solid ${(props) => props.theme.colors.backgroundSecondary};
   }
+`;
 
-  .title {
-    margin-right: 725px;
-  }
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
 `;
 
 export const ImagesGrid = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -100px;
 `;
 
 export const ImageColumn = styled.div`

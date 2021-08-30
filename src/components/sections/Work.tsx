@@ -1,4 +1,4 @@
-import { Container, Content } from "../../styles/components/Work";
+import { Container } from "../../styles/components/Work";
 
 import Title from "../Title";
 
