@@ -4,6 +4,7 @@ import Intro from "../components/sections/Intro";
 import About from "../components/sections/About";
 import Projects from "../components/sections/Projects";
 import Tools from "../components/sections/Tools";
+import Work from "../components/sections/Work";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Projects />
         <Tools />
+        <Work />
       </main>
     </>
   );

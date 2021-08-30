@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const Texts = styled.div`
   margin-left: 50px;
   margin-top: 87px;
+  font: 300 18px Poppins;
 
   .about {
     margin-top: 50px;
