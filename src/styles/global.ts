@@ -15,9 +15,9 @@ export default createGlobalStyle`
 `;
 
 export const applyPadding = styled.div`
-  padding: 0 100px;
+  padding: 0 300px;
 
-  @media (min-width: 1920px) {
-    padding: 0 400px;
+  @media (max-width: 1440px) {
+    padding: 0 100px;
   }
 `;

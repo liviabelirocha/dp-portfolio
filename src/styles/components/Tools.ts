@@ -16,6 +16,7 @@ export const Container = styled(applyPadding)`
     width: 680px;
     height: 680px;
     margin-top: 180px;
+    margin-left: 94px;
   }
 `;
 
@@ -30,6 +31,7 @@ export const ImagesGrid = styled.div`
     width: 100px;
     height: 100px;
     margin-top: 0;
+    margin-left: 0;
   }
 `;
 
@@ -38,5 +40,4 @@ export const Col = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin-right: 110px;
 `;
