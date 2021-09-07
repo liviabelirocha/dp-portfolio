@@ -17,6 +17,9 @@ export const Container = styled(applyPadding)`
 
 export const Texts = styled.div`
   margin-top: 87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .hello {
     font-size: 18px;
@@ -29,5 +32,19 @@ export const Texts = styled.div`
 
   .below {
     margin-top: 60px;
+  }
+`;
+
+export const Flags = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5rem;
+
+  .flag {
+    width: 83.3px;
+    cursor: pointer;
+    margin: 0.5rem;
   }
 `;

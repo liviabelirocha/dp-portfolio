@@ -61,7 +61,7 @@ export default function Tools() {
         />
         <ImagesGrid>
           {tools.map((tool) => (
-            <img src={tool.img} title={tool.name} />
+            <img src={tool.img} title={tool.name} key={tool.key} />
           ))}
         </ImagesGrid>
       </Col>

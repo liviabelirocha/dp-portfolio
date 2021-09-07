@@ -29,10 +29,14 @@ export const langStrings = {
     workText2:
       "After having all the information and research i need, my next step is to wiork on the wirefram and prototype using either Figma or Adobe XD. After the prototype is finished and the wireframe is finalized and approved, this is where i start doing the visual designs using tools such as Adobe Photoshop for processing and editing images, Illustrator  for creating vector graphics and either adobe XD or Figma for the actual visual design.",
 
-    contactTitle: "CONTACT ME",
+    contactTitle1: "CONTACT",
+    contactTitle2: "ME",
     nameForm: "Name Surname",
     msgForm: "Message",
     sendButton: "Send",
+
+    emailSuccess: "Email sent successfully!",
+    emailError: "Something went wrong while sending the email. Try again!",
 
     rightsText:
       "All rights reserved to Dominic Persaud © No portion of this website may be reproduced without expressed permission",
@@ -69,10 +73,14 @@ export const langStrings = {
     workText2:
       "Depois que o protótipo é finalizado e o wireframe é finalizado e aprovado, é aqui que eu começo a fazer os designs visuais usando ferramentas como Adobe Photoshop para processar e editar imagens, Illustrator para criar gráficos vetoriais e adobe XD ou Figma para o design visual real.",
 
-    contactTitle: "CONTATE ME",
+    contactTitle1: "ENTRE EM",
+    contactTitle2: "CONTATO",
     nameForm: "Nome Sobrenome",
     msgForm: "Mensagem",
     sendButton: "Enviar",
+
+    emailSuccess: "Email enviado com sucesso!",
+    emailError: "Algo deu errado ao mandar o email. Tente novamente!",
 
     rightsText:
       "Todos os direitos reservados a Dominic Persaud © Nenhuma parte deste site pode ser reproduzida sem permissão expressa",
