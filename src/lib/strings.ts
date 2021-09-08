@@ -38,9 +38,11 @@ export const langStrings = {
     emailSuccess: "Email sent successfully!",
     emailError: "Something went wrong while sending the email. Try again!",
 
-    rightsText:
-      "All rights reserved to Dominic Persaud © No portion of this website may be reproduced without expressed permission",
-    devMordunne: "Developed with    by Livia Belizário",
+    rightsText1: "All rights reserved to Dominic Persaud ©",
+    rightsText2:
+      "No portion of this website may be reproduced without expressed permission",
+    devMordunne1: "Developed with",
+    devMordunne2: "by Livia Belizário",
   },
 
   pt: {
@@ -82,8 +84,10 @@ export const langStrings = {
     emailSuccess: "Email enviado com sucesso!",
     emailError: "Algo deu errado ao mandar o email. Tente novamente!",
 
-    rightsText:
-      "Todos os direitos reservados a Dominic Persaud © Nenhuma parte deste site pode ser reproduzida sem permissão expressa",
-    devMordunne: "Desenvolvido com    por Livia Belizário",
+    rightsText1: "Todos os direitos reservados a Dominic Persaud ©",
+    rightsText2:
+      "Nenhuma parte deste site pode ser reproduzida sem permissão expressa",
+    devMordunne1: "Desenvolvido com",
+    devMordunne2: "por Livia Belizário",
   },
 };

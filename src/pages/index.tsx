@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import Intro from "../components/sections/Intro";
 import About from "../components/sections/About";
@@ -23,6 +24,7 @@ export default function Home() {
         <Tools id="tools" />
         <Work />
         <Contact id="contact" />
+        <Footer />
       </main>
     </>
   );
