@@ -46,8 +46,8 @@ export const langStrings = {
   pt: {
     header1: "Inicio",
     header2: "Sobre mim",
-    header3: "Metodologia",
-    header4: "Portfólio",
+    header3: "Portfólio",
+    header4: "Metodologia",
     header5: "Contato",
 
     hello: "Olá, eu sou",

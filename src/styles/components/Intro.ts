@@ -6,7 +6,7 @@ export const Container = styled(applyPadding)`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 180px;
+  margin-top: 127px;
 
   img {
     width: 680px;

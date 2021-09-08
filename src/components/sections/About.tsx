@@ -4,11 +4,13 @@ import Title from "../Title";
 
 import useTranslation from "../../hooks/useTranslation";
 
-export default function About() {
+import { SectionInterface } from "../../interfaces/Section";
+
+export default function About({ id }: SectionInterface) {
   const { t } = useTranslation();
 
   return (
-    <Container>
+    <Container id={id}>
       <img src="mu.jpg" />
 
       <Texts>

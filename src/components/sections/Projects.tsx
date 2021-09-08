@@ -10,13 +10,15 @@ import Title from "../Title";
 
 import useTranslation from "../../hooks/useTranslation";
 
+import { SectionInterface } from "../../interfaces/Section";
+
 import ArrowSvg from "../../assets/Arrow.svg";
 
-export default function Projects() {
+export default function Projects({ id }: SectionInterface) {
   const { t } = useTranslation();
 
   return (
-    <Container>
+    <Container id={id}>
       <Title
         main={t("projectsTitle1")}
         sub={t("projectsTitle2")}

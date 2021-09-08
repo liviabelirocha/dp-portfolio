@@ -5,10 +5,12 @@ import Divider from "../Divider";
 
 import useTranslation from "../../hooks/useTranslation";
 
+import { SectionInterface } from "../../interfaces/Section";
+
 import BrFlag from "../../assets/br.svg";
 import EnFlag from "../../assets/en.svg";
 
-export default function Intro() {
+export default function Intro({ id }: SectionInterface) {
   const { t, setLocale } = useTranslation();
 
   function handleLocaleChange(language: string) {
@@ -19,7 +21,7 @@ export default function Intro() {
   }
 
   return (
-    <Container>
+    <Container id={id}>
       <Texts>
         <div>
           <p className="hello">{t("hello")}</p>

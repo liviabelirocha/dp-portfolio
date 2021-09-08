@@ -4,6 +4,8 @@ import Title from "../Title";
 
 import useTranslation from "../../hooks/useTranslation";
 
+import { SectionInterface } from "../../interfaces/Section";
+
 const tools = [
   {
     key: 1,
@@ -47,11 +49,11 @@ const tools = [
   },
 ];
 
-export default function Tools() {
+export default function Tools({ id }: SectionInterface) {
   const { t } = useTranslation();
 
   return (
-    <Container>
+    <Container id={id}>
       <Col>
         <Title
           main={t("toolsTitle1")}

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Navbar from "../components/Navbar";
+
 import Intro from "../components/sections/Intro";
 import About from "../components/sections/About";
 import Projects from "../components/sections/Projects";
@@ -14,12 +16,13 @@ export default function Home() {
         <title>Dominic Portfolio</title>
       </Head>
       <main>
-        <Intro />
-        <About />
-        <Projects />
-        <Tools />
+        <Navbar />
+        <Intro id="intro" />
+        <About id="about" />
+        <Projects id="projects" />
+        <Tools id="tools" />
         <Work />
-        <Contact />
+        <Contact id="contact" />
       </main>
     </>
   );

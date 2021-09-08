@@ -12,7 +12,9 @@ import Input from "../Input";
 
 import useTranslation from "../../hooks/useTranslation";
 
-export default function Contact() {
+import { SectionInterface } from "../../interfaces/Section";
+
+export default function Contact({ id }: SectionInterface) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMessage] = useState("");
@@ -48,7 +50,7 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <Container>
+    <Container id={id}>
       <img src="mu.jpg" />
 
       <Form onSubmit={onSubmit} autoComplete="off">
