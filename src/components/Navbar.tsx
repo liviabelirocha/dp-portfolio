@@ -7,8 +7,6 @@ import {
   Selected,
 } from "../styles/components/Navbar";
 
-import { animateScroll as scroll } from "react-scroll";
-
 import LogoSVG from "../assets/extendedLogo.svg";
 
 import useTranslation from "../hooks/useTranslation";

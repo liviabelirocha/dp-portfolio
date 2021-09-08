@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
 
-export const Container = styled.div`
+import { applyPadding } from "../global";
+
+export const Container = styled(applyPadding)`
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-
-  padding: 0 87px;
 `;
 
 export const Nav = styled.ul`

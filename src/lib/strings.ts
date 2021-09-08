@@ -2,8 +2,8 @@ export const langStrings = {
   en: {
     header1: "Home",
     header2: "About me",
-    header3: "Methodology",
-    header4: "Portfolio",
+    header3: "Portfolio",
+    header4: "Methodology",
     header5: "Contact me",
 
     hello: "Hello, I am",
