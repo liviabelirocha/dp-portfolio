@@ -35,7 +35,7 @@ export default function Intro({ id }: SectionInterface) {
           <EnFlag className="flag" onClick={() => handleLocaleChange("en")} />
         </Flags>
       </Texts>
-      <img src="mu.jpg" />
+      <img src="cube.gif" />
     </Container>
   );
 }
