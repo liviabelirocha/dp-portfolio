@@ -8,7 +8,7 @@ import useTranslation from "../../hooks/useTranslation";
 import { SectionInterface } from "../../interfaces/Section";
 
 import BrFlag from "../../assets/br.svg";
-import EnFlag from "../../assets/en.svg";
+import EnFlag from "../../assets/brit.svg";
 
 export default function Intro({ id }: SectionInterface) {
   const { t, setLocale } = useTranslation();
