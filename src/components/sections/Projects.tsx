@@ -27,10 +27,28 @@ export default function Projects({ id }: SectionInterface) {
       />
       <Content>
         <ImagesGrid>
-          <img src="mu.jpg" />
+          <a
+            href="https://www.behance.net/gallery/127093947/Developer-Portfolio-UI-Design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="projectsDevPortfolio.png" />
+          </a>
           <ImageColumn>
-            <img src="mu.jpg" />
-            <img src="mu.jpg" />
+            <a
+              href="https://www.behance.net/gallery/125069441/Food-Delivery-App-UIUX"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="projectsFood.jpg" />
+            </a>
+            <a
+              href="https://www.behance.net/gallery/119747057/Plant-Daddy-App-UIUX-Webdesign"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="projectsPlantDaddy.png" />
+            </a>
           </ImageColumn>
         </ImagesGrid>
 

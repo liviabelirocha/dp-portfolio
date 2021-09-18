@@ -12,7 +12,7 @@ export const Container = styled(applyPadding)`
   padding-top: 200px !important;
 
   img {
-    width: 525px;
+    width: 500px;
     height: 500px;
     border: 2px solid ${(props) => props.theme.colors.backgroundSecondary};
   }
