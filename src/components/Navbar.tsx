@@ -19,9 +19,9 @@ export default function Navbar() {
   const links = [
     { title: "header1", to: "intro" },
     { title: "header2", to: "about" },
-    { title: "header3", to: "projects" },
-    { title: "header4", to: "tools" },
-    { title: "header5", to: "contact" },
+    { title: "header3", to: "projects", offset: 170 },
+    { title: "header4", to: "tools", offset: 30 },
+    { title: "header5", to: "contact", offset: -50 },
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function Navbar() {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-30}
+            offset={link.offset || -30}
             duration={500}
           >
             <Selected activeTab={selected == index}></Selected>

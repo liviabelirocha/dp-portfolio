@@ -24,4 +24,8 @@ export const applyPadding = styled.div`
   @media (max-width: 1440px) {
     padding: 0 50px;
   }
+
+  @media (max-width: 1366px) {
+    padding: 0 20px;
+  }
 `;
