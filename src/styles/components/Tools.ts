@@ -17,6 +17,10 @@ export const Container = styled(applyPadding)`
     height: 680px;
     margin-top: 180px;
     margin-left: 94px;
+
+    @media (max-width: 1440px) {
+      margin-left: 40px;
+    }
   }
 `;
 
