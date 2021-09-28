@@ -20,7 +20,7 @@ export default function Navbar() {
     { title: "header1", to: "intro" },
     { title: "header2", to: "about" },
     { title: "header3", to: "projects", offset: 170 },
-    { title: "header4", to: "tools", offset: 30 },
+    { title: "header4", to: "work" },
     { title: "header5", to: "contact", offset: -50 },
   ];
 

@@ -21,8 +21,8 @@ export default function Home() {
         <Intro id="intro" />
         <About id="about" />
         <Projects id="projects" />
-        <Tools id="tools" />
-        <Work />
+        <Tools />
+        <Work id="work" />
         <Contact id="contact" />
         <Footer />
       </main>
