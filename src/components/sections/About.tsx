@@ -11,7 +11,7 @@ export default function About({ id }: SectionInterface) {
 
   return (
     <Container id={id}>
-      <img src="mu.jpg" />
+      <img src="illustration1.png" />
 
       <Texts>
         <Title

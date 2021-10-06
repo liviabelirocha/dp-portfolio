@@ -25,9 +25,9 @@ export const langStrings = {
     workTitle1: "HOW I",
     workTitle2: "WORK",
     workText1:
-      "When i start working on a project, I try to get all the relevant information from my client, such as demographics, goals and prefered aesthethics. After this, i start doing the research about the industry, competition, trends and other necessary factors for the project development.",
+      "When I start working on a project, I try to get all the relevant information from my client, such as demographics, goals and prefered aesthethics. After this, I start doing the research about the industry, competition, trends and other necessary factors for the project development.",
     workText2:
-      "After having all the information and research i need, my next step is to wiork on the wirefram and prototype using either Figma or Adobe XD. After the prototype is finished and the wireframe is finalized and approved, this is where i start doing the visual designs using tools such as Adobe Photoshop for processing and editing images, Illustrator  for creating vector graphics and either adobe XD or Figma for the actual visual design.",
+      "After having all the information and research I need, my next step is to work on the wirefram and prototype using either Figma or Adobe XD. After the prototype is finished and the wireframe is finalized and approved, this is where I start doing the visual designs using tools such as Adobe Photoshop for processing and editing images, Illustrator for creating vector graphics and either adobe XD or Figma for the actual visual design.",
 
     contactTitle1: "CONTACT",
     contactTitle2: "ME",
