@@ -84,7 +84,7 @@ export default function Contact({ id }: SectionInterface) {
           name="message"
         />
 
-        <SubmitButton type="submit" disabled={loading} loading={loading}>
+        <SubmitButton type="submit" disabled={loading} $loading={loading}>
           {loading ? <Oval /> : t("sendButton")}
         </SubmitButton>
       </Form>

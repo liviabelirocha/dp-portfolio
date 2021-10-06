@@ -23,12 +23,12 @@ export const Form = styled.form`
   }
 `;
 
-export const SubmitButton = styled.button<{ loading: boolean }>`
+export const SubmitButton = styled.button<{ $loading: boolean }>`
   color: ${(props) => props.theme.colors.text};
   font: 500 24px Poppins;
   padding: 26px 48px;
   background: ${(props) =>
-    props.loading
+    props.$loading
       ? props.theme.colors.backgroundTertiary
       : props.theme.colors.backgroundPrimary};
   margin-top: 40px;

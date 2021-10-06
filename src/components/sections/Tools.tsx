@@ -8,42 +8,42 @@ const tools = [
   {
     key: 1,
     name: "Yuh",
-    img: "1-Figma.svg",
+    img: "tools/1-Figma.svg",
   },
   {
     key: 2,
     name: "Yuh",
-    img: "2-Adobe_XD.svg",
+    img: "tools/2-Adobe_XD.svg",
   },
   {
     key: 3,
     name: "Yuh",
-    img: "3-Photoshop.svg",
+    img: "tools/3-Photoshop.svg",
   },
   {
     key: 4,
     name: "Yuh",
-    img: "4-Illustrator.svg",
+    img: "tools/4-Illustrator.svg",
   },
   {
     key: 5,
     name: "Yuh",
-    img: "5-After_Effects.svg",
+    img: "tools/5-After_Effects.svg",
   },
   {
     key: 6,
     name: "Yuh",
-    img: "6-Premiere_Pro.png",
+    img: "tools/6-Premiere_Pro.png",
   },
   {
     key: 7,
     name: "Yuh",
-    img: "7-CSS3.svg",
+    img: "tools/7-CSS3.svg",
   },
   {
     key: 8,
     name: "Yuh",
-    img: "8-HTML5.svg",
+    img: "tools/8-HTML5.svg",
   },
 ];
 

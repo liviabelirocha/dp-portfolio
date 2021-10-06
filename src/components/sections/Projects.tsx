@@ -32,7 +32,7 @@ export default function Projects({ id }: SectionInterface) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="projectsDevPortfolio.png" />
+            <img src="projects/devPortfolio.png" />
           </a>
           <ImageColumn>
             <a
@@ -40,14 +40,14 @@ export default function Projects({ id }: SectionInterface) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="projectsFood.jpg" />
+              <img src="projects/food.jpg" />
             </a>
             <a
               href="https://www.behance.net/gallery/119747057/Plant-Daddy-App-UIUX-Webdesign"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="projectsPlantDaddy.png" />
+              <img src="projects/plantDaddy.png" />
             </a>
           </ImageColumn>
         </ImagesGrid>
