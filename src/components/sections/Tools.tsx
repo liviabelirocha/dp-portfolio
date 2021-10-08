@@ -65,7 +65,7 @@ export default function Tools() {
           ))}
         </ImagesGrid>
       </Col>
-      <img src="mu.jpg" />
+      <img src="illustration2.png" />
     </Container>
   );
 }
