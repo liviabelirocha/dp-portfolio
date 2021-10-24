@@ -7,7 +7,6 @@ export const Container = styled(applyPadding)`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   margin-top: -100px;
   padding-top: 200px !important;
 

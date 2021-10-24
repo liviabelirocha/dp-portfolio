@@ -25,10 +25,10 @@ export default function Footer() {
 
   const links = [
     { title: "header1", to: "intro" },
-    { title: "header2", to: "about", offset: -200 },
-    { title: "header3", to: "projects", offset: 170 },
-    { title: "header4", to: "work", offset: -200 },
-    { title: "header5", to: "contact", offset: -50 },
+    { title: "header2", to: "about" },
+    { title: "header3", to: "projects" },
+    { title: "header4", to: "work" },
+    { title: "header5", to: "contact" },
   ];
 
   return (
@@ -46,7 +46,8 @@ export default function Footer() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={link.offset || -30}
+              offset={-30}
+              isDynamic={true}
               duration={500}
             >
               {t(link.title)}
