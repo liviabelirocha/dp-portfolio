@@ -33,10 +33,12 @@ export default function Footer() {
 
   return (
     <Container>
-      <LogoSVG />
+      <LogoSVG className="logo" />
 
       <Content>
-        <ContentSection>
+        <ContentSection $footer={false}>
+          <LogoSVG className="small-logo" />
+
           {links.map((link, index) => (
             <NavLink
               key={index}
@@ -57,25 +59,25 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillLinkedin size="25px" />
+              <AiFillLinkedin className="social-icon" size="25px" />
             </a>
             <a
               href="https://dribbble.com/DomPersaud"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiOutlineDribbble size="25px" />
+              <AiOutlineDribbble className="social-icon" size="25px" />
             </a>
             <a
               href="https://www.behance.net/dominicpersaud"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiOutlineBehance size="25px" />
+              <AiOutlineBehance className="social-icon" size="25px" />
             </a>
           </Icons>
         </ContentSection>
-        <ContentSection>
+        <ContentSection $footer={true}>
           <Copyright>
             {t("rightsText1")}
             <br />

@@ -51,7 +51,7 @@ export default function Contact({ id }: SectionInterface) {
 
   return (
     <Container id={id}>
-      <img src="mu.jpg" />
+      <img src="illustration3.png" />
 
       <Form onSubmit={onSubmit} autoComplete="off">
         <Title

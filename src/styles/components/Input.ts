@@ -14,9 +14,8 @@ export const Container = styled.div`
     color: ${(props) => props.theme.colors.text};
     font: 500 24px Poppins;
 
-    .placeholder-text {
-      font-size: 24px;
-      padding: 0 1.2rem;
+    @media (max-width: 428px) {
+      font-size: 16px;
     }
 
     :focus {
@@ -57,5 +56,9 @@ export const Container = styled.div`
     background-color: transparent;
     transform: translate(0);
     transition: transform 0.15s ease-out, font-size 0.15s ease-out;
+
+    @media (max-width: 428px) {
+      font-size: 16px;
+    }
   }
 `;

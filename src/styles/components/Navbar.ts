@@ -6,15 +6,33 @@ import { applyPadding } from "../global";
 export const Container = styled(applyPadding)`
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  .hamburger {
+    cursor: pointer;
+  }
+
+  @media (min-width: 864px) {
+    .hamburger {
+      display: none;
+    }
+  }
 `;
 
-export const Nav = styled.ul`
+export const Nav = styled.ul<{ $isOpen: boolean }>`
   list-style-type: none;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 864px) {
+    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
+    max-height: ${(props) => (props.$isOpen ? "24rem" : "0")};
+    transition: max-height 0.3s ease-in;
+  }
 `;
 
 export const NavLinkContainer = styled(Link)`

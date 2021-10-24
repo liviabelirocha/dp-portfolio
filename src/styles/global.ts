@@ -12,6 +12,29 @@ export default createGlobalStyle`
 		color: ${(props) => props.theme.colors.text};
         font: 400 18px 'Poppins', sans-serif;
 	}
+
+  p {
+    font: 300 18px Poppins;
+
+    @media (max-width: 1280px) {
+      font-size: 14px
+    }
+  }
+
+  img {
+    width: 680px;
+    height: 680px;
+
+    /* @media (max-width: 1280px) {
+      width: 424px;
+      height: 424px;
+    }
+
+    @media (max-width: 864px) {
+      width: 338px;
+      height: 338px;
+    } */
+  }
 `;
 
 export const applyPadding = styled.div`
