@@ -9,10 +9,13 @@ export const Container = styled(applyPadding)`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1rem;
 
   margin-top: 180px;
 
   @media (max-width: 968px) {
+    margin-top: 140px;
+
     .logo {
       display: none;
     }

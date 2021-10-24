@@ -8,9 +8,10 @@ export const Container = styled(applyPadding)`
   justify-content: space-between;
   margin-top: 220px;
 
-  img {
-    width: 680px;
-    height: 680px;
+  @media (max-width: 968px) {
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 0;
   }
 `;
 
@@ -22,6 +23,11 @@ export const Texts = styled.div`
   .about {
     margin-top: 50px;
     max-width: 450px;
-    font-size: 18px;
+  }
+
+  @media (max-width: 968px) {
+    font: 300 14px Poppins;
+    margin-bottom: 32px;
+    margin-left: 0;
   }
 `;

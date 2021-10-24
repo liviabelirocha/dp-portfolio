@@ -4,7 +4,7 @@ import { applyPadding } from "../global";
 export const Container = styled(applyPadding)`
   width: 100%;
   background: ${(props) => props.theme.colors.backgroundTertiary};
-  border-radius: 0 0 230px 230px;
+  border-radius: 0 0 0 230px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,6 +22,27 @@ export const Container = styled(applyPadding)`
       margin-left: 40px;
     }
   }
+
+  @media (max-width: 1550px) {
+    img {
+      width: 425px !important;
+      height: 425px !important;
+    }
+  }
+
+  @media (max-width: 1048px) {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+    img {
+      margin-top: 64px;
+      margin-bottom: 135px;
+      margin-left: 0;
+      width: 300px !important;
+      height: 300px !important;
+    }
+  }
 `;
 
 export const ImagesGrid = styled.div`
@@ -32,10 +53,19 @@ export const ImagesGrid = styled.div`
   margin-top: 100px;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     margin-top: 0;
     margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 1048px) {
+    column-gap: 30px;
+    img {
+      width: 60px !important;
+      height: 60px !important;
+    }
   }
 `;
 

@@ -18,12 +18,12 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        {/* <Intro id="intro" />
+        <Intro id="intro" />
         <About id="about" />
         <Projects id="projects" />
         <Tools />
         <Work id="work" />
-        <Contact id="contact" />*/}
+        <Contact id="contact" />
         <Footer />
       </main>
     </>

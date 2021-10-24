@@ -3,13 +3,19 @@ import { applyPadding } from "../global";
 
 export const Container = styled(applyPadding)`
   background: ${(props) => props.theme.colors.backgroundTertiary};
-  border-radius: 230px 230px 0 0;
+  border-radius: 0 230px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-center;
+  align-items: flex-start;
   margin-top: -100px;
   padding-top: 200px !important;
+
+  @media (max-width: 1048px) {
+    align-items: center;
+    margin-top: 64px;
+    padding-top: 92px !important;
+  }
 
   img {
     width: 500px;
@@ -23,12 +29,21 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: -100px;
+
+  @media (max-width: 1048px) {
+    margin-top: 72px;
+    align-items: flex-start;
+  }
 `;
 
 export const ImagesGrid = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 1048px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImageColumn = styled.div`
@@ -52,6 +67,16 @@ export const TextButton = styled.a`
     letter-spacing: 0.085em;
     color: ${(props) => props.theme.colors.text};
     transition: 0.2s;
+  }
+
+  @media (max-width: 1048px) {
+    margin-top: 32px;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    p {
+      margin-right: 20px;
+    }
   }
 
   :hover {

@@ -8,9 +8,10 @@ export const Container = styled(applyPadding)`
   justify-content: space-between;
   margin-top: 220px;
 
-  img {
-    width: 680px;
-    height: 680px;
+  @media (max-width: 1048px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
   }
 `;
 
@@ -20,6 +21,13 @@ export const Form = styled.form`
 
   .title {
     margin-bottom: 80px;
+  }
+
+  @media (max-width: 1048px) {
+    .title {
+      margin-bottom: 49px;
+      margin-top: 64px;
+    }
   }
 `;
 
@@ -40,5 +48,9 @@ export const SubmitButton = styled.button<{ $loading: boolean }>`
 
   :hover {
     background: ${(props) => props.theme.colors.backgroundTertiary};
+  }
+
+  @media (max-width: 1048px) {
+    padding: 11px 80px;
   }
 `;
