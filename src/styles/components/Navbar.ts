@@ -14,7 +14,7 @@ export const Container = styled(applyPadding)`
     cursor: pointer;
   }
 
-  @media (min-width: 864px) {
+  @media (min-width: 948px) {
     .hamburger {
       display: none;
     }
@@ -26,7 +26,7 @@ export const Nav = styled.ul<{ $isOpen: boolean }>`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 864px) {
+  @media (max-width: 948px) {
     overflow: hidden;
     flex-direction: column;
     width: 100%;
